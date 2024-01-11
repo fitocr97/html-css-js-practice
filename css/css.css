@@ -1,0 +1,21 @@
+body{background-color: bisque;} /* selector html body*/
+
+#color-blue{
+    color: blue; /* selector id*/
+}
+
+.color-brown{
+    color: brown; /* selector clase*/
+}
+
+.box{
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 4px;
+    border-left: 4px solid rgb(37, 9, 75);
+    border-radius: 4px;
+    height: 100px;
+    background-color: aqua;
+}
