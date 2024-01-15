@@ -1,0 +1,23 @@
+.display-1 p{
+    display: inline;
+}
+
+.bloques{
+    border: 2px solid cornflowerblue;
+}
+
+.inlines{
+    border: 2px solid salmon;
+}
+
+.hola{
+    display: none;
+    display: inline;
+    display: block;
+}
+
+
+
+.hola{
+    opacity: 0.4; /* 0-1  0.7  0.8*/
+}
