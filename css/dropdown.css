@@ -1,0 +1,43 @@
+.mostar{
+    background-color: aquamarine;
+    color: dodgerblue;
+    border-color: aquamarine;
+    border-style: outset;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.mostar:hover{
+    background-color: dodgerblue;
+    color: aquamarine;
+    border-color: aquamarine;
+}
+
+.content{
+    display: none;
+    position: absolute;
+    background-color:azure;
+    min-width: 160px;
+    box-shadow: 0 2px 2px black;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+/* decorar al contetn*/
+.dropdown .content a{
+    text-decoration: none;
+    color: dodgerblue;
+    padding: 10px 12px;
+    display: block;
+}
+
+.content a:hover{
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: lightblue;
+}
+
+/* muestra el content*/
+.dropdown:hover .content{
+    display: block;
+}
