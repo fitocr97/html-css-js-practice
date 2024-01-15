@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+    position: fixed;
+    width: 100%;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: brown;
+    font-size: 2em;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: rgb(204, 167, 174);
+}
+
+li:hover{
+    background-color: rgba(22, 83, 55, 0.418);
+}
