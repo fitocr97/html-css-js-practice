@@ -1,0 +1,43 @@
+
+input[type=text]{
+    width: 100%;
+   /* padding: 10px 20px 15px 25px;  arriba, derecha, abajo, izquierda */
+    padding: 10px 15px; /* arriba/abajo, derecha/izquierda */
+    margin: 4px;
+    display: inline-block;
+    border: 1px solid cadetblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 100%;
+    padding: 10px 15px; /* arriba/abajo, derecha/izquierda */
+    background-color: cadetblue;
+    margin: 4px;
+    display: inline-block;
+    border: 1px solid cadetblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover{
+    width: 100%;
+    padding: 10px 15px; /* arriba/abajo, derecha/izquierda */
+    background-color: rgb(2, 41, 41);
+    color: cornsilk;
+    margin: 4px;
+    display: inline-block;
+    border: 2px solid rgb(92, 169, 173);
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.card{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px cadetblue;
+}
