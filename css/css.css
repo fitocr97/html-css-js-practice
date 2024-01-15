@@ -67,3 +67,27 @@ body{background-color: bisque;} /* selector html body*/
     border: solid 5px rgb(221, 216, 216);
 }
 
+.tabla table{
+    width: 100%;
+    background-color: wheat;
+    border-collapse: collapse; /* quitar los separadores*/
+    border: 2px solid red;
+}
+
+.tabla table thead{
+    background-color: azure;
+    
+}
+
+.tabla table thead th{
+    padding: 10px;
+    text-align: left;
+}
+
+.tabla table td{
+    border: 1px solid red;
+}
+
+.tabla table tr td{
+    padding: 10px;
+}
