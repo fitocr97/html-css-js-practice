@@ -1,0 +1,59 @@
+body{
+    background-color: aquamarine;
+}
+
+
+.box-1{
+    background-color: azure;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 8px rgb(17, 17, 17);
+    border-left: 4px solid red;
+    transition: width 0.2s;
+}
+
+.box-2{
+    background-color: azure;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 8px rgb(17, 17, 17);
+    border-left: 4px solid green;
+    transition: width 0.2s;
+}
+
+.box-3{
+    background-color: azure;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 8px rgb(17, 17, 17);
+    border-left: 4px solid rgb(41, 23, 141);
+    transition: width 0.2s;
+}
+
+p{
+    display: inline;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.box-1:hover{
+    width: 180px;
+    height: 30px;
+}
+.box-2:hover{
+    width: 180px;
+    height: 30px;
+}
+.box-3:hover{
+    width: 180px;
+    height: 30px;
+}

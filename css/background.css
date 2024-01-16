@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.fondo{
+    height: 500px;
+    background-color: aquamarine;
+    background-image: url('https://dotesports.com/wp-content/uploads/2023/08/dota-betboom-dacha-hub.jpg?resize=1024,576');
+    background-attachment: fixed;
+    background-size: cover;
+}
