@@ -1,0 +1,42 @@
+body{
+    background-color: blanchedalmond;
+}
+
+
+.grid{
+    display: grid; 
+    grid-template-areas: "header header"
+                            "content content"
+                            "footer footer";
+
+    grid-template-rows: 150px 1fr 100px; /* fila fila fila*/
+    grid-template-columns: 1fr 200px; /* col col*/
+    grid-auto-rows: 140px;
+}
+
+div{
+    background-color: aquamarine;
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: aquamarine;
+}
+.green{
+    background-color: green;
+}
+
+
+
+
+
+/*
+.header{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+*/

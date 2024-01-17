@@ -1,0 +1,16 @@
+.grid{
+    display: grid; 
+    grid-template-columns: repeat(4,60px);
+    grid-template-rows: repeat(4,60px);
+    grid-gap:10px;
+    color: aqua;
+    /*justify-content: end;*/ /*mueve todo a la dercha*/
+    /*justify-content: space-around; *//* pone espacio entre col   pero al inicio deja un hueco*/
+    justify-content: space-between; /* espacios entre colums*/
+    align-items: center; /*rows*/
+}
+
+.red{
+    text-align: center;
+    background-color: red;
+}
