@@ -1,0 +1,35 @@
+/*.flex{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: nowrap; /*por defecto*//*
+    flex-wrap: wrap; /* si se sale del ancho que siga en la otara linea*/
+    
+/*
+    align-items: stretch;
+}
+
+.red{
+    background-color: aquamarine;
+}*/
+
+.flex{
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+/*
+.primero{
+    order: 1;
+}
+
+.segundo{
+    order: 2;
+}*/
+
+.primero{
+    align-items: center;
+}
+.segundo{
+    align-items: center;
+}
