@@ -15,6 +15,17 @@ window.onload = () =>{
         todoList.innerHTML = todosTemplate.join('')
         console.log(todosTemplate)
 
+        const elementos = document.querySelectorAll('#todo-list li')
+        /*elementos.forEach(x => console.log(x))*/
+        elementos.forEach((elemento, i) =>{
+            elemento.addEventListener('click', () => {
+                elemento.parentNode.removeChild(elemento)
+                console.log(todos)
+            })
+        })
+
+            
+        
     }
 }
 
